@@ -57,7 +57,7 @@ Java SOA project with Spring 5.
 ##### request
 ```json
 {  
-   "userName":"usertest1",
+   "userName":"friedman",
    "password":"367030"
 }
 ```
@@ -65,7 +65,7 @@ Java SOA project with Spring 5.
 ```json
 {
     "lastAccess": null,
-    "login": "usertest1",
+    "login": "friedman",
     "password": "blR/EdGICTRW4fFI7xrQZA==",
     "type": "CUSTOMER",
     "groupRoles": [
@@ -84,7 +84,7 @@ Java SOA project with Spring 5.
 {  
    "id":1,
    "lastAccess":null,
-   "login":"usertest1",
+   "login":"friedman",
    "password":"blR/EdGICTRW4fFI7xrQZA==",
    "type":"CUSTOMER",
    "groupRoles":[  
