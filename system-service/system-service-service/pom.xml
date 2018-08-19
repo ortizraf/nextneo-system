@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.nextneo.system.service</groupId>
+		<artifactId>system.service</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>system-service-service</artifactId>
+	<name>System Service - Service</name>
+	<description>System Service - Service</description>
+
+	<dependencies>
+
+		<!-- SYSTEM REPOSITORY -->
+		<dependency>
+			<groupId>com.nextneo.system.service</groupId>
+			<artifactId>system-service-repository</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- SYSTEM FRAMEWORK INTEGRATION -->
+		<dependency>
+			<groupId>com.nextneo.system.framework</groupId>
+			<artifactId>system-framework-integration</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- SYSTEM SERVICE JMS -->
+		<dependency>
+			<groupId>com.nextneo.system.service</groupId>
+			<artifactId>system-service-jms</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
