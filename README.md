@@ -8,8 +8,8 @@ Java SOA project with Spring 5.
 
 ## Requirements
 
-- JDK 8
-- MySQL
+- JDK 11
+- MySQL 8
 - Tomcat 9
 
 ## Configure
