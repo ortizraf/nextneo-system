@@ -1,13 +1,46 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.nextneo.system.framework</groupId>
-    <artifactId>system-framework</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>system-framework-models</artifactId>
-  <name>System Framework - Models</name>
-  <description>System Framework - Models</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.nextneo.system.framework</groupId>
+		<artifactId>system-framework</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>system-framework-models</artifactId>
+	<name>System Framework - Models</name>
+	<description>System Framework - Models</description>
+
+	<dependencies>
+
+		<!-- SYSTEM FRAMEWORK UTILS -->
+		<dependency>
+			<groupId>com.nextneo.system.framework</groupId>
+			<artifactId>system-framework-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- Configuration jpa and driver -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.3.7.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.13</version>
+		</dependency>
+
+		<!-- JSR 303 with Hibernate Validator -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.13.Final</version>
+		</dependency>
+
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -21,34 +54,4 @@
 		</plugins>
 	</build>
 
-	<dependencies>
-	
-		<!-- SYSTEM FRAMEWORK UTILS -->		
-		<dependency>
-			<groupId>com.nextneo.system.framework</groupId>
-			<artifactId>system-framework-utils</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		
-		<!-- Configuration jpa and driver -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.3.7.Final</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.13</version>
-		</dependency>
-		
-		<!-- JSR 303 with Hibernate Validator -->
-		<dependency>
-		    <groupId>org.hibernate</groupId>
-		    <artifactId>hibernate-validator</artifactId>
-		    <version>6.0.13.Final</version>
-		</dependency>
-		
-	</dependencies>
 </project>

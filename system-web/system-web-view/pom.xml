@@ -12,7 +12,7 @@
 	<name>System Web - View</name>
 	<description>System Web - View</description>
 	<properties>
-		<!-- Servlet API -->
+		<!-- Servlet API V-->
 		<servlet.version>3.1.0</servlet.version>
 		<!-- JSTL -->
 		<jstl.version>1.2</jstl.version>
@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.nextneo.system.web</groupId>
 			<artifactId>system-web-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 
 		<!-- SERVLET API -->

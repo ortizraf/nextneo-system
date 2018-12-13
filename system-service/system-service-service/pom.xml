@@ -16,21 +16,21 @@
 		<dependency>
 			<groupId>com.nextneo.system.service</groupId>
 			<artifactId>system-service-repository</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 
 		<!-- SYSTEM FRAMEWORK INTEGRATION -->
 		<dependency>
 			<groupId>com.nextneo.system.framework</groupId>
 			<artifactId>system-framework-integration</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 
 		<!-- SYSTEM SERVICE JMS -->
 		<dependency>
 			<groupId>com.nextneo.system.service</groupId>
 			<artifactId>system-service-jms</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 
 	</dependencies>

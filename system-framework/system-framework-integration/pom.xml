@@ -9,6 +9,17 @@
   <name>System Framework - Integration</name>
   <description>System Framework - Integration</description>
 
+	<dependencies>
+	
+		<!-- SYSTEM FRAMEWORK UTILS -->
+		<dependency>
+			<groupId>com.nextneo.system.framework</groupId>
+			<artifactId>system-framework-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -20,15 +31,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<dependencies>
 	
-		<!-- SYSTEM FRAMEWORK UTILS -->
-		<dependency>
-			<groupId>com.nextneo.system.framework</groupId>
-			<artifactId>system-framework-utils</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-	</dependencies>
 </project>

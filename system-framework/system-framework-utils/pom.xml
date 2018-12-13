@@ -10,6 +10,17 @@
 	<name>System Framework - Utils</name>
 	<description>System Framework - Utils</description>
 
+	<dependencies>
+
+		<!-- APACHE COMMONS LANG -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.6</version>
+		</dependency>
+
+	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -21,15 +32,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<dependencies>
-
-		<!-- APACHE COMMONS LANG -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.6</version>
-		</dependency>
-
-	</dependencies>
+	
 </project>
