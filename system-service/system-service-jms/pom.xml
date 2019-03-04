@@ -13,7 +13,7 @@
 	
 	<properties>
 		<!-- Spring MVC -->
-		<spring-framework.version>5.1.3.RELEASE</spring-framework.version>	
+		<spring-framework.version>5.1.5.RELEASE</spring-framework.version>	
 	</properties>
 
 	<dependencies>
